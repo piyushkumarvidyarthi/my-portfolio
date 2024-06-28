@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Section</title>
+  <link rel="stylesheet" href="feedback.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    
+  <div class="feedback-container">
+    <h2>Leave your feedback</h2>
+    <form action="submit-feedback.php" method="POST">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="feedback">Your Feedback:</label><br>
+      
+      <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+      <div class="like-dislike">
+        <button class="like-btn">Like</button>
+        <button class="dislike-btn">Dislike</button>
+      </div>
+      <h3>Thankyou for your feedback</h3>
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+  <footer>
+    <div class="container">
+        <p>&copy; 2024 Piyush Kumar. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
