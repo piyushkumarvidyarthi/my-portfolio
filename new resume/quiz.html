@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10 Biology Quiz - Life Processes</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Class 10 Biology Quiz</h1>
+            <p>Chapter: Life Processes</p>
+        </header>
+
+        <!-- Instructions Section -->
+        <div id="instructions" class="section">
+            <h2>Instructions:</h2>
+            <ul>
+                <li>There will be 100 MCQs in the quiz.</li>
+                <li>You have 1 minute to answer each question.</li>
+                <li>Click "Start Quiz" to begin.</li>
+                <li>Use arrow keys to select options.</li>
+            </ul>
+            <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz-section" class="section" style="display: none;">
+            <div id="question-container"></div>
+            <div id="timer">Time left: <span id="time">60</span> seconds</div>
+            <div id="options-container"></div>
+            <button class="next-btn" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            <button class="submit-btn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+        </div>
+
+        <!-- Results Section -->
+        <div id="result" class="section" style="display: none;">
+            <h2>Quiz Results</h2>
+            <p id="result-message"></p>
+            <p id="attempted"></p>
+            <p id="unattempted"></p>
+            <p id="correct"></p>
+            <p id="incorrect"></p>
+            <p id="score"></p>
+            <button class="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+
+        <!-- Celebration Section -->
+        <div id="celebration" class="section" style="display: none;">
+            <h2>🎉 Congratulations! You Passed the Quiz! 🎉</h2>
+            <p>You scored above 33%. Great job!</p>
+            <div class="fireworks"></div>
+            <button class="restart-btn" onclick="restartQuiz()">Play Again</button>
+        </div>
+
+        <!-- Sad Section -->
+        <div id="sad" class="section" style="display: none;">
+            <h2>😞 Sorry, you failed the quiz. Try Again! 😞</h2>
+            <button class="restart-btn" onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

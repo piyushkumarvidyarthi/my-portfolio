@@ -1,0 +1,59 @@
+/* CSS File: styles.css */
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ffffff;
+  margin-bottom: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+section {
+  margin-bottom: 30px;
+}
+h2 {
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.contact a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+.quiz-link {
+  text-align: center;
+  margin-top: 40px;
+}
+.quiz-link a {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.quiz-link a:hover {
+  background-color: #16a085;
+}
+

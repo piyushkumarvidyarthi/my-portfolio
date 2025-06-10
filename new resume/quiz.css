@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+button {
+    padding: 16px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.start-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.next-btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+.restart-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.selected-option {
+    background-color: #c8e6c9;
+}
+
+#question-container {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 22px;
+    color: red;
+}
+
+/* Celebration & Sad Styles */
+#celebration {
+    text-align: center;
+    color: green;
+    font-size: 28px;
+}
+
+#sad {
+    text-align: center;
+    color: red;
+    font-size: 28px;
+}
+
+/* Fireworks Animation */
+.fireworks {
+    background-image: url('fireworks.gif');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+section {
+    display: none;
+}
+
+/* Buttons and Options */
+button {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.option-btn {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.selected-option {
+    background-color: #c8e6c9;
+}
+
+.selected-option:hover {
+    background-color: #66bb6a;
+}
